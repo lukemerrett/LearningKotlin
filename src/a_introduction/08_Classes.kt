@@ -2,6 +2,7 @@ package a_introduction
 
 /*
     Classes in Kotlin work like records types, in that a lot is auto generated for you
+    However to get the full record type benefits, look at Data Classes later on
  */
 
 // Creates an empty class with a default constructor taking no arguments
