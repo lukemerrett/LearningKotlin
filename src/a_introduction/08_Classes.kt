@@ -22,8 +22,10 @@ fun main() {
     val secondContact = Contact(1, "jane@gmail.com")
 
     // Unlike record types in C#/F#, classes are not automatically generated with property based equality checks
+    // Look at Data Classes for a record type equivalent
     println(firstContact == secondContact)
 
     // Unlike record types in C#/F#, classes are not automatically generated with a ToString that outputs all props
+    // Look at Data Classes for a record type equivalent
     println(firstContact)
 }
